@@ -1,0 +1,6 @@
+1. Run and CREATE DATABASE userData; in for MySQL
+2. Change username and password accordingly in application.properties file
+3. Go to SecurityConfig and uncomment Line 38 and comment Line 39 to be able to Add the first admin
+4. Run the app and hit the end point /addAdmin endpoint with details
+5. Once an Admin is saved in DB, Go to SecurityConfig and comment Line 38 and uncomment Line 39
+6. Run the App, generate Bearer token and hit endpoints as the requirements
